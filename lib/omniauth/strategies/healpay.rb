@@ -16,8 +16,8 @@ module OmniAuth
       
       option :client_options, {
         :site => "http://gate.healpay.com",
-        :authorize_url => "http://gate.healpay.com/oauth/healpay/authorize",
-        :token_url => "http://gate.healpay.com/oauth/healpay/access_token"
+        :authorize_url => "http://gate.healpay.com/oauth/authorize",
+        :token_url => "http://gate.healpay.com/oauth/access_token"
       }
 
       def request_phase
