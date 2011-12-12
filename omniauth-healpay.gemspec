@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name     = 'omniauth-healpay'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.authors  = ['Lance Carlson']
   s.email    = ['lcarlson@healpay.com']
   s.summary  = 'Healpay strategy for OmniAuth'
